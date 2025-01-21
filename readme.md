@@ -32,7 +32,7 @@ Após a instalação do XAMPP, siga os passos abaixo:
 
 3. **Configurar o banco de dados:**
    - Acesse o `phpMyAdmin` clicando no botão "Admin" ao lado de "MySQL" no painel de controle do XAMPP.
-   - Crie um banco de dados para o seu projeto (exemplo: `lojas_cadastro`).
+   - Crie um banco de dados para o seu projeto (exemplo: `empresas`).
    - Importe qualquer estrutura de tabelas necessária para o funcionamento do projeto (dependendo das necessidades, você pode criar tabelas para armazenar dados como lojas, logomarcas, etc).
    
 ### Criar Tabela no MySQL
