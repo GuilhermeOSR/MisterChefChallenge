@@ -139,7 +139,7 @@
 .form-side::after {
     position: absolute;
     content: '';
-    background-image: url("./Imgs/sadasd.jpg");
+    background-image: url("../Imgs/sadasd.jpg");
     background-position: center;
     width: 20%;
     height: 850px;
