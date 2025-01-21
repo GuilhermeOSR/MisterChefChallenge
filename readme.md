@@ -34,6 +34,28 @@ Após a instalação do XAMPP, siga os passos abaixo:
    - Acesse o `phpMyAdmin` clicando no botão "Admin" ao lado de "MySQL" no painel de controle do XAMPP.
    - Crie um banco de dados para o seu projeto (exemplo: `lojas_cadastro`).
    - Importe qualquer estrutura de tabelas necessária para o funcionamento do projeto (dependendo das necessidades, você pode criar tabelas para armazenar dados como lojas, logomarcas, etc).
+   
+### Criar Tabela no MySQL
+
+Para criar a tabela `lojas` no seu banco de dados, você pode usar o seguinte comando SQL:
+
+```sql
+CREATE TABLE lojas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome_loja VARCHAR(255) NOT NULL,
+    cnpj VARCHAR(18) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    contato VARCHAR(50),
+    cep VARCHAR(10),
+    rua VARCHAR(255),
+    numero VARCHAR(10),
+    complemento VARCHAR(255),
+    bairro VARCHAR(255),
+    cidade VARCHAR(255),
+    estado VARCHAR(2),
+    logomarca VARCHAR(255)
+);
+
 
 ### 3. Executando o Projeto
 
