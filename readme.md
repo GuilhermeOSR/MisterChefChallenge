@@ -56,7 +56,7 @@ CREATE TABLE lojas (
     logomarca VARCHAR(255)
 );
 
-
+```
 ### 3. Executando o Projeto
 
 1. Abra o navegador e acesse `http://localhost/nome-do-projeto` (substitua `nome-do-projeto` pelo nome da pasta onde você salvou o código).
